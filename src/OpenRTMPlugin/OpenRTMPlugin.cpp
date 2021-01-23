@@ -172,7 +172,11 @@ public:
         int numArgs = 14;
 #endif
 #else
+#if defined(OPENRTM_VERSION11)
         int numArgs = 11;
+#elif defined(OPENRTM_VERSION12)
+        int numArgs = 12;
+#endif
 #endif
         if(isConfFileSpecified){
             numArgs += 2;
