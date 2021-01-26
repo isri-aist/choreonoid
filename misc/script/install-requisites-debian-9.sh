@@ -8,7 +8,7 @@ libeigen3-dev \
 libeigen3-doc \
 libxfixes-dev \
 libyaml-dev \
-libfmt-dev \
+libfmt3-dev \
 gettext \
 zlib1g-dev \
 libjpeg-dev \
@@ -22,7 +22,7 @@ python2.7-dev \
 python-numpy \
 pybind11-dev \
 libassimp-dev \
-libsdformat6-dev \
+libsdformat4-dev \
 libogre-1.9-dev \
 libode-dev \
 libomniorb4-dev \
